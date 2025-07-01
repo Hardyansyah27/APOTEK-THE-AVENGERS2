@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jun 26, 2025 at 07:43 AM
+-- Generation Time: Jul 01, 2025 at 12:07 PM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -100,8 +100,10 @@ CREATE TABLE `users` (
 
 INSERT INTO `users` (`id`, `username`, `password`, `role`) VALUES
 (1, 'Hardyansyah Saputra', '123456', 'owner'),
-(4, 'ihsan', '234567', 'admin'),
-(5, 'rehan', '345678', 'kasir');
+(8, 'ERRIEL YEHEZKIEL WATTIMENA', '234567', 'kasir'),
+(9, 'Muhammad Izzul Aulia Ardani', '345678', 'kasir'),
+(10, 'Ahmad Ryhan Rivaldi', '456789', 'admin'),
+(11, 'Muhamad Ihsan Syahputra Angkat', '567890', 'admin');
 
 --
 -- Indexes for dumped tables
@@ -157,7 +159,7 @@ ALTER TABLE `obat`
 -- AUTO_INCREMENT for table `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
